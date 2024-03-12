@@ -2,7 +2,6 @@
 <p align="center">Christoba Joshua Hutagalung - 2311102133</p>
 
 ## Dasar Teori
-
 Tipe data merupakan sebuah jenis nilai atau berupa nilai apa yang akan  ditampung  oleh  sebuah  variabel.  Tipe  data  ini  wajib  ada  ketika  akan membuat  sebuah  variabel  agar  variabel  tersebut  memiliki  nilai  yang  spesifik dan  jelas  ketika  digunakan  nantinya.Berikut ini terdapat jenis jenis tipe data yang ada dalam c++ beserta penjelasannya:
 
     1.Tipe data primitif
