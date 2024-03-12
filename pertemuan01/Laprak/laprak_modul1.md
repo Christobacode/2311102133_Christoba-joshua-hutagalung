@@ -5,14 +5,14 @@
 Tipe data merupakan sebuah jenis nilai atau berupa nilai apa yang akan  ditampung  oleh  sebuah  variabel.  Tipe  data  ini  wajib  ada  ketika  akan membuat  sebuah  variabel  agar  variabel  tersebut  memiliki  nilai  yang  spesifik dan  jelas  ketika  digunakan  nantinya.Berikut ini terdapat jenis jenis tipe data yang ada dalam c++ beserta penjelasannya:<br/>
 1.Tipe data primitif<br/>
 Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem, tipe data primitif ini disediakan oleh banyak bahasa pemrograman, perbedaannya terletak pada jumlah bit yang dialokasikan untuk setiap bit pada tipe data primitif tergantung pada bahasa pemrograman,compiler dan sistem operasinya.contoh:<br/>
-1.Int<br/>
-tipe data yang digunakan untuk menyimpan bilangan bulat.  
-2.Float<br/>
-tipe data yang digunakan untuk menyimpan bilangan desimal.
-3.Char<br/>
-tipe data yang digunakan untuk menyimpan data berupa sebuah huruf.
-4.Boolean<br/>
-tipe data ini digunakan untuk menyimpan nilai true dan false.
+1.Int
+tipe data yang digunakan untuk menyimpan bilangan bulat.<br/> 
+2.Float
+tipe data yang digunakan untuk menyimpan bilangan desimal.<br/>
+3.Char
+tipe data yang digunakan untuk menyimpan data berupa sebuah huruf.<br/>
+4.Boolean
+tipe data ini digunakan untuk menyimpan nilai true dan false.<br/>
 
 2.Tipe data abstrak<br/>
 Tipe data abstrak atau yang biasa disebut Abstrak Data Tipe(ADT) merupakan tipe data yang dibentuk oleh programer itu sendiri.tipe data abstrak bisa memilikki nilai lebih dari satu ragam tipe data.
