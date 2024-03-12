@@ -6,40 +6,30 @@ Tipe data merupakan sebuah jenis nilai atau berupa nilai apa yang akan  ditampun
 
 1.Tipe data primitif
 Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem, tipe data primitif ini disediakan oleh banyak bahasa pemrograman, perbedaannya terletak pada jumlah bit yang dialokasikan untuk setiap bit pada tipe data primitif tergantung pada bahasa pemrograman,compiler dan sistem operasinya.contoh:
+1.Int<br/>
+<br/>tipe data yang digunakan untuk menyimpan bilangan bulat.  
+2.Float<br/>
+<br/>tipe data yang digunakan untuk menyimpan bilangan desimal.
+3.Char<br/>
+<br/>tipe data yang digunakan untuk menyimpan data berupa sebuah huruf.
+4.Boolean<br/>
+<br/>tipe data ini digunakan untuk menyimpan nilai true dan false.
+2.Tipe data abstrak<br/>
+<br/>Tipe data abstrak atau yang biasa disebut Abstrak Data Tipe(ADT) merupakan tipe data yang dibentuk oleh programer itu sendiri.tipe data abstrak bisa memilikki nilai lebih dari satu ragam tipe data.
 
-1.Int
-tipe data yang digunakan untuk menyimpan bilangan bulat.  
+3.Tipe data koleksi<br/> 
+<br/>Tipe data koleksi (Collection Data Type) adalah tipe data yang digunakan untuk mengelompokkan dan menyimpan beberapa nilai atau objek secara bersamaan. Tipe data koleksi memungkinkan Anda menyimpan, mengelola, dan mengakses sejumlah besar data dengan cara yang terstruktur.contoh:
 
-2.Float
-tipe data yang digunakan untuk menyimpan bilangan desimal.
-
-3.Char
-tipe data yang digunakan untuk menyimpan data berupa sebuah huruf.
-
-4.Boolean
-tipe data ini digunakan untuk menyimpan nilai true dan false.
-
-2.Tipe data abstrak
-Tipe data abstrak atau yang biasa disebut Abstrak Data Tipe(ADT) merupakan tipe data yang dibentuk oleh programer itu sendiri.tipe data abstrak bisa memilikki nilai lebih dari satu ragam tipe data.
-
-3.Tipe data koleksi 
-Tipe data koleksi (Collection Data Type) adalah tipe data yang digunakan untuk mengelompokkan dan menyimpan beberapa nilai atau objek secara bersamaan. Tipe data koleksi memungkinkan Anda menyimpan, mengelola, dan mengakses sejumlah besar data dengan cara yang terstruktur.contoh:
-
-1.Array
+1.Array<br/>
 struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama.
 Array dapat berupa array berdimensi satu, dua, tiga atau lebih seperti berikut:
-
-a.Array berdimensi satu (one-dimensional array) mewakili bentuk suatu vektor.
-
-b.Array berdimensi dua (two-dimensional array) mewakili bentuk dari suatu matriks atau tabel.
-
-c.Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.
-
-2.Vector
-Standard Template Library (STL) jika di dalam C/C++ memiliki bentuk std::vector . Umumnya, vector mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan. 
-
-3.Map
-Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer.
+<br/>a.Array berdimensi satu (one-dimensional array) mewakili bentuk suatu vektor.
+<br/>b.Array berdimensi dua (two-dimensional array) mewakili bentuk dari suatu matriks atau tabel.
+<br/>c.Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.
+<br/>2.Vector
+<br/>Standard Template Library (STL) jika di dalam C/C++ memiliki bentuk std::vector . Umumnya, vector mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan. 
+3.Map<br/>
+<br/>Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer.
 
 ## Guided 
 
@@ -353,5 +343,5 @@ Dari hasil pratikum tentang tipe data dalam c++ ini kita tau bahwa tipe data ada
 
 ## Referensi
 [1] Purbasari, Wika, et al. ALGORITMA PEMROGRAMAN. Edited by Setiya Putra, Yusuf W., and Hanson P. Putro, CV WIDINA MEDIA UTAMA, 2024.
-[2] U. Indahyanti and Y. Rahmawati, “Buku Ajar Algoritma Dan Pemrograman Dalam Bahasa C++”, umsidapress, pp. 1-146, Aug. 2021.  
+<br>[2] U. Indahyanti and Y. Rahmawati, “Buku Ajar Algoritma Dan Pemrograman Dalam Bahasa C++”, umsidapress, pp. 1-146, Aug. 2021.  
 [3] Putra, Muhammad Taufik D., et al. BELAJAR DASAR PEMROGRAMAN DENGAN C++. Edited by Damayanti, Evi, CV WIDINA MEDIA UTAMA, 2022.
