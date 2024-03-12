@@ -4,23 +4,35 @@
 ## Dasar Teori
 
 Tipe data merupakan sebuah jenis nilai atau berupa nilai apa yang akan  ditampung  oleh  sebuah  variabel.  Tipe  data  ini  wajib  ada  ketika  akan membuat  sebuah  variabel  agar  variabel  tersebut  memiliki  nilai  yang  spesifik dan  jelas  ketika  digunakan  nantinya.Berikut ini terdapat jenis jenis tipe data yang ada dalam c++ beserta penjelasannya:
+
     1.Tipe data primitif
       Tipe data primitif adalah tipe data yang sudah ditentukan oleh sistem, tipe data primitif ini disediakan oleh banyak bahasa pemrograman, perbedaannya terletak pada jumlah bit yang dialokasikan untuk setiap bit pada tipe data primitif tergantung pada bahasa pemrograman,compiler dan sistem operasinya.contoh:
-      1.Int = tipe data yang digunakan untuk menyimpan bilangan bulat.  
-      2.Float =  tipe data yang digunakan untuk menyimpan bilangan desimal.
-      3.Char = tipe data yang digunakan untuk menyimpan data berupa sebuah huruf.
-      4.Boolean =  tipe data ini digunakan untuk menyimpan nilai true dan false.
+
+        1.Int = tipe data yang digunakan untuk menyimpan bilangan bulat.  
+
+        2.Float =  tipe data yang digunakan untuk menyimpan bilangan desimal.
+
+        3.Char = tipe data yang digunakan untuk menyimpan data berupa sebuah huruf.
+
+        4.Boolean =  tipe data ini digunakan untuk menyimpan nilai true dan false.
+
     2.Tipe data abstrak
+
       Tipe data abstrak atau yang biasa disebut Abstrak Data Tipe(ADT) merupakan tipe data yang dibentuk oleh programer itu sendiri.tipe data abstrak bisa memilikki nilai lebih dari satu ragam tipe data.
+
     3.Tipe data koleksi 
+
       Tipe data koleksi (Collection Data Type) adalah tipe data yang digunakan untuk mengelompokkan dan menyimpan beberapa nilai atau objek secara bersamaan. Tipe data koleksi memungkinkan Anda menyimpan, mengelola, dan mengakses sejumlah besar data dengan cara yang terstruktur.contoh:
-      1.Array =  struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama.
-      Array dapat berupa array berdimensi satu, dua, tiga atau lebih seperti berikut:
-      a.Array berdimensi satu (one-dimensional array) mewakili bentuk suatu vektor.
-      b.Array berdimensi dua (two-dimensional array) mewakili bentuk dari suatu matriks atau tabel.
-      c.Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.
-      2.Vector = Standard Template Library (STL) jika di dalam C/C++ memiliki bentuk std::vector . Umumnya, vector mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan. 
-      3.Map =  Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer.
+
+        1.Array =  struktur data statis yang menyimpan elemen-elemen dengan tipe data yang sama.
+        Array dapat berupa array berdimensi satu, dua, tiga atau lebih seperti berikut:
+            a.Array berdimensi satu (one-dimensional array) mewakili bentuk suatu vektor.
+            b.Array berdimensi dua (two-dimensional array) mewakili bentuk dari suatu matriks atau tabel.
+            c.Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.
+
+        2.Vector = Standard Template Library (STL) jika di dalam C/C++ memiliki bentuk std::vector . Umumnya, vector mirip seperti array yang memiliki kemampuan untuk menyimpan data dalam bentuk elemen-elemen yang alokasi memorinya dilakukan otomatis dan bersebelahan. 
+        
+        3.Map =  Map terasa mirip dengan array namun dengan index yang memungkinkan untuk berupa tipe data selain integer.
 
 ## Guided 
 
@@ -225,13 +237,9 @@ int main()
 Kode diatas adalah program kalkulator atau menu perhitungan terdapat 3 fungsi perhitungan didalam program tersebut.ada pertambahan,pengurangan dan luas segitiga.terdapat juga perkondisian menggunakan switch case untuk memilh menu dengan inputan int pilih_2133 dan terdapat dua tipe data primitif yaitu int dan float.
 
 Kesimpulan Tipe data primitif:
-Tipe data primitif adalah tipe data yang memilikki karakteristik seperti 
-1.Sudah ditentukan oleh sistem
-2.Memilikki jumlah bit yang bervariasi
-3.Digunakan untuk menyimpan nilai sederhana
+Tipe data primitif adalah tipe data yang memilikki karakteristik seperti Sudah ditentukan oleh sistem seperti nilai boolean,bilangan desimal,karakter,dan bilangan bulat, memilikki jumlah bit yang bervariasi dan digunakan untuk menyimpan nilai sederhana.
 
 ### 2.Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya!
-/*
 
 ```C++
 /*
@@ -295,7 +303,6 @@ Fungsi pada Class:
 Salah satu konsep OOP dalam C++  yang melibatkan pembungkusan data dan abstraksi prosedural. Dalam class, kita dapat menggunakan akses private dan protected untuk mengendalikan hak akses anggota.class dapat digunakan untuk membantu kita dalam mengorganisir kode kita dengan mengelompokkan data dan fungsi terkait bersamaan.
 
 ### 3.Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map!
-/*
 
 ```C++
 /*
