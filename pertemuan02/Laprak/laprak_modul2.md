@@ -337,6 +337,6 @@ Dalam pemrograman C++, array memungkinkan penyimpanan beberapa data serupa dalam
 
 ## Referensi
 [1] W. Purbasari, et al., Algoritma Pemrograman, Y. W. Setiya Putra, H. P. Putro and C. V. Widina Media Utama, Eds., 2024.  
-[2] Putra, et al., Belajar Dasar Pemrograman Dengan C++, E. Damayanti and C. V. Widina Media Utama, Eds., 2022.
-[3] B. Stroustrup, The C++ Programming Language, 4th ed. Upper Saddle River, NJ: Addison-Wesley, 2013.
+[2] Putra, et al., Belajar Dasar Pemrograman Dengan C++, E. Damayanti and C. V. Widina Media Utama, Eds., 2022.<br>
+[3] B. Stroustrup, The C++ Programming Language, 4th ed. Upper Saddle River, NJ: Addison-Wesley, 2013.<br>
 [4] U. Indahyanti and Y. Rahmawati, “Buku Ajar Algoritma Dan Pemrograman Dalam Bahasa C++”, umsidapress, pp. 1-146, Aug. 2021.
