@@ -8,13 +8,17 @@ Array adalah cara mendasar C++ untuk merepresentasikan rangkaian objek dalam mem
 Jenis jenis array ada 3 yaitu:<br>
 1.Array satu dimensi<br>
 Array berdimensi satu (one-dimensional array) mewakili bentuk suatu vektor.<br>
+
 2.Array dua dimensi<br>
 Array berdimensi dua (two-dimensional array) mewakili bentuk dari suatu matriks atau tabel.<br>
+
 3.Array tiga dimensi<br>
 Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.<br>
+
 berikut contoh contoh dari masing masing jenis tipe data array:
 1.Array satu dimensi :<br>
 int nilai[5] = {80, 30, 96, 85, 75};<br>
+
 2.Array dua dimensi :<br>
 int matriks[3][3] = {
     {1, 2, 3},
@@ -22,6 +26,7 @@ int matriks[3][3] = {
     {7, 8, 9}
 };<br>
 3.Array 3 dimensi :<br>
+
 int volume[3][3][3] = {
     {
         {1, 2, 3},
@@ -124,7 +129,7 @@ Program diatas adalah program untuk mencari nilai maksimum dari sebuah array,use
 ## Unguided 
 
 ### 1. Buatlah program untuk menampilkan Output seperti berikut dengan data yang diinputkan oleh user!
-![Screenshot Soal Unguided 1](outputsoalunguided1.png)
+![Screenshot Soal Unguided 1](outputsoalunguided1.jpg)
 ```C++
 #include <iostream>
 
