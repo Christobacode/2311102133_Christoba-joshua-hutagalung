@@ -15,10 +15,10 @@ Array berdimensi dua (two-dimensional array) mewakili bentuk dari suatu matriks 
 3.Array tiga dimensi<br>
 Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.<br>
 
-berikut contoh contoh dari masing masing jenis tipe data array:
+berikut contoh contoh dari masing masing jenis tipe data array:<br>
 1.Array satu dimensi :<br>
 ```C++
-int nilai[5] = {80, 30, 96, 85, 75};<br>
+int nilai[5] = {80, 30, 96, 85, 75};
 ```
 2.Array dua dimensi :<br>
 ```C++
@@ -26,7 +26,7 @@ int matriks[3][3] = {
     {1, 2, 3},
     {4, 5, 6},
     {7, 8, 9}
-};<br>
+};
 ```
 3.Array 3 dimensi :<br>
 ```C++
@@ -46,7 +46,7 @@ int volume[3][3][3] = {
         {22, 23, 24},
         {25, 26, 27}
     }
-};<br>
+};
 ```
 
 ## Guided 
