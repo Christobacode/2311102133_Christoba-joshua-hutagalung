@@ -17,16 +17,19 @@ Array berdimensi tiga (three-dimensional array) mewakili bentuk suatu ruang.<br>
 
 berikut contoh contoh dari masing masing jenis tipe data array:
 1.Array satu dimensi :<br>
+```C++
 int nilai[5] = {80, 30, 96, 85, 75};<br>
-
+```
 2.Array dua dimensi :<br>
+```C++
 int matriks[3][3] = {
     {1, 2, 3},
     {4, 5, 6},
     {7, 8, 9}
 };<br>
+```
 3.Array 3 dimensi :<br>
-
+```C++
 int volume[3][3][3] = {
     {
         {1, 2, 3},
@@ -44,6 +47,7 @@ int volume[3][3][3] = {
         {25, 26, 27}
     }
 };<br>
+```
 
 ## Guided 
 
