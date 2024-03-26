@@ -964,11 +964,6 @@ Program ini merupakan implementasi single linked list pada c++.Linked list digun
 ### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama Produk dan Harga. </br>Case:</br> ㅤ1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific</br> ㅤ2. Hapus produk Wardah</br> ㅤ3. Update produk Hanasui menjadi Cleora dengan harga 55000</br> ㅤ4. Tampilkan menu, di mana tampilan akhirnya akan menjadi seperti dibawah ini:
 ![Screenshot Soal Unguided 2](soalunguided2_modul3(1).png)
 
-Case :
-1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific.
-2. Hapus produk wardah.
-3. Update produk Hanasui menjadi Cleora dengan harga 55.000.
-4. Tampilkan menu seperti dibawah ini.
 ```C++
 1. Tambah data
 2. Hapus data
