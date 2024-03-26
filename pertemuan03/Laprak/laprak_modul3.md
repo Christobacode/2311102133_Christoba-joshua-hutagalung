@@ -1285,5 +1285,5 @@ Program ini adalah implementasi dari double linked list dalam c++.double linked 
 Linked list adalah salah satu struktur data dalam bahasa pemrograman c++ yang memungkinkan pengelolaan data secara dinamis.Linked list memilikki keunggulan di fleksibilitasnya yang memungkinkan penambahan dan penghapusan elemen dengan cepat dan efisien.ini berarti linked list cocok digunakan dimana elemen dapat berubah secara dinamis.linked list memilikki 3 jenis ada single linked list,double linked list dan circular linked list dan masing masing dari 3 jenis itu memilikki fungsinya masing masing.linked list wajib dipelajari karena dapat memudahkan programmer dalam membuat keputusan yang tepat dalam memilih struktur data yang sesuai untuk kebutuhan aplikasi mereka.
 
 ## Referensi
-[1] A. Sindar, STRUKTUR DATA Dan Algoritma DENGAN C++, 2018.
+[1] A. Sindar, STRUKTUR DATA Dan Algoritma DENGAN C++, 2018.<br>
 [2] Triase, Triase. "Struktur Data: Diktat Edisi Revisi." (2020).
