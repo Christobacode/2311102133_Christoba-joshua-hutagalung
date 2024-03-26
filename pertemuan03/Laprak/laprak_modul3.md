@@ -517,7 +517,7 @@ Program ini merupakan implementasi dari double linked list c++.Double linked lis
 ## Unguided 
 
 ### 1. Buatlah program menu Single Linked List Non-Circular untuk menyimpan Nama dan usia mahasiswa, dengan menggunakan inputan dari user. Lakukan operasi berikut:
-![Screenshot Soal Unguided 1](soalunguided1_modul3.jpg)
+![Screenshot Soal Unguided 1](soalunguided1_modul3.png)
 ```C++
 #include <iostream>
 
@@ -962,7 +962,7 @@ int main()
 Program ini merupakan implementasi single linked list pada c++.Linked list digunakan untuk menyimpan data berupa nama dan umur dalam struktur node.node memilikki dua atribut ada nama_133 untuk simpan nama dan umur_133 untuk simpan umur dan ada pointer next yang menunjuk ke node berikut nya dalam list.lalu terdapat fungsi fungsi dalam program ini ada inisialisasi_133 untuk menginisialisasi linked list dalam mengatur head dan tail menjadi NULL,lalu ada kosong_133 untuk mengecek linked listnya kosong atau tidak,TambahDepan_133 untuk menambahkan node baru di depan linked list,TambahBelakang_133 sama aja cuman bedanya dibelakang linked list,ada UbahDepan_133 untuk mengubah data di node head,UbahTengah_133 untuk mengubah node di tengah linked list pada posisi tertentu.HapusList_133 untuk menghapus seluruh linked list,ada TampilList_133 untuk menampilkan semua linked list dan ada fungsi main yang berfungsi sebagai menu utama untuk menjalankan fungsi fungsi seperti menambahkan data pada linked list,menghapus data tertentu di linked list dan keluar dari program.
 
 ### 2. Modifikasi Guided Double Linked List dilakukan dengan penambahan operasi untuk menambah data, menghapus, dan update di tengah / di urutan tertentu yang diminta. Selain itu, buatlah agar tampilannya menampilkan Nama Produk dan Harga. </br>Case:</br> ㅤ1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific</br> ㅤ2. Hapus produk Wardah</br> ㅤ3. Update produk Hanasui menjadi Cleora dengan harga 55000</br> ㅤ4. Tampilkan menu, di mana tampilan akhirnya akan menjadi seperti dibawah ini:
-![Screenshot Soal Unguided 2](soalunguided2_modul3(1).jpg)
+![Screenshot Soal Unguided 2](soalunguided2_modul3(1).png)
 
 Case :
 1. Tambahkan produk Azarine dengan harga 65000 diantara Somethinc dan Skintific.
@@ -981,7 +981,7 @@ Case :
 ```
 Pada menu 7, tampilan akhirnya akan menjadi seperti dibawah ini :
 
-![Screenshot Soal Unguided 2](soalunguided2_modul3(2).jpg)
+![Screenshot Soal Unguided 2](soalunguided2_modul3(2).png)
 
 ```C++
 #include <iostream>
