@@ -1152,7 +1152,7 @@ int main(){
 ##### Output 10 (Data Budi)
 ![Screenshot Output Unguided 2](UN2_OutputBudi.png)
 
-##### Output 10 (Tampil semua data list)
+##### Output 11 (Tampil semua data list)
 ![Screenshot Output Unguided 2](UN2_TampilsemuaList.png)
 
 ### 3. Lakukan perintah berikut!
