@@ -10,7 +10,7 @@ Single linked list atau biasa disebut linked list terdiri dari elemen-elemen ind
 -Double Linked List<br>
 Elemen-elemen dihubungkan dengan dua pointer dalam satu elemen. Struktur ini menyebabkan list melintas baik ke depan maupun ke belakang. Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data dan pointer next, masing-masing elemen dilengkapi dengan pointer prev yang menunjuk ke elemen sebelumnya.<br> 
 
-Lau linked list memilikki 4 jenis lagi yaitu:
+Lau linked list memilikki 4 jenis lagi yaitu:<br>
 -Single linked list Non Circular
 Single linked list Non Circular adalah jenis struktur data linked list yang terdiri dari sejumlah node yang setiap node hanya memiliki satu pointer, yaitu pointer yang digunakan untuk menunjuk ke node selanjutnya dalam urutan linked list, kecuali untuk node terakhir yang disebut sebagai tail. Pada node tail atau node terakhir ini, pointer yang dimilikinya menunjuk ke NULL, menandakan akhir dari linked list tersebut.<br>
 
@@ -1189,6 +1189,19 @@ int main(){
 
 ##### Output 10 (Tampil seluruh data)
 ![Screenshot Output Unguided 3](UN3_TampilSemuaData.png)
+
+## Penjelasan keseluruhan program
+program C++ diatas menggunakan konsep linked list non-circular untuk menyimpan dan mengelola data mahasiswa. Program ini menyediakan berbagai operasi dasar seperti menambah, mengubah, dan menghapus data, serta menampilkan seluruh data yang tersimpan.
+-Program dimulai dengan deklarasi struktur `node` yang berisi informasi tentang nama dan NIM mahasiswa, serta pointer `next` untuk menunjukkan ke node selanjutnya dalam linked list.
+-Terdapat fungsi fungsi seperti `Inisialisasi_133`, `isEmpty_133`, dan `HitungNode_133` untuk memeriksa status dan menghitung jumlah node dalam linked list.
+-Terdapat juga prosedur-prosedur seperti `TambahDepan_133`, `TambahBelakang_133`, `TambahTengah_133` untuk menambahkan node pada berbagai posisi dalam linked list.
+-Proses penghapusan node juga diimplementasikan melalui prosedur-prosedur seperti `HapusDepan_133`, `HapusBelakang_133`, dan `HapusTengah_133`.
+-Fungsi-fungsi seperti `TampilDepan_133`, `TampilTengah_133` digunakan untuk menampilkan data dari posisi tertentu dalam linked list.
+-Terdapat juga prosedur-prosedur untuk mengubah data pada node, yaitu `UbahDepan_133`, `UbahBelakang_133`, dan `UbahTengah_133`.
+-Fungsi `TampilList_133` digunakan untuk menampilkan seluruh data yang tersimpan dalam linked list.
+-Fungsi `main` merupakan tempat dimana pengguna dapat memilih operasi yang ingin dilakukan melalui menu yang disediakan. Setiap operasi diimplementasikan menggunakan switch-case dan pengguna dapat memilih untuk kembali ke menu utama setelah setiap operasi.
+
+program ini memberikan pengguna kemampuan untuk mengelola daftar data mahasiswa dengan berbagai operasi yang tersedia, menggunakan konsep linked list non-circular untuk menyimpan dan mengakses data lebih efisien
 
 ## Kesimpulan
 Linked list non-circular adalah struktur data linear di mana setiap elemen terhubung dengan elemen berikutnya dalam satu arah, dengan elemen terakhir menunjuk ke null sedangkan linked list circular memiliki elemen terakhir yang menunjuk kembali ke elemen pertama, membentuk lingkaran.Pentingnya mempelajari kedua jenis linked list ini terletak pada kemampuannya untuk menyimpan dan mengelola data dalam urutan yang dinamis. Linked list non-circular memungkinkan penambahan dan penghapusan elemen di awal, tengah, atau akhir daftar dengan efisiensi, sementara linked list circular dapat digunakan untuk aplikasi yang membutuhkan iterasi berulang dalam loop tak terbatas atau ketika data perlu diatur dalam siklus tertutup.
