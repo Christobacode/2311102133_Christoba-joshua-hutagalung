@@ -2,16 +2,78 @@
 <p align="center">Christoba Joshua Hutagalung - 2311102133</p>
 
 ## Dasar Teori
-Hash table (tabel hash) adalah struktur data yang digunakan untuk menyimpan dan mengakses elemen-elemen data dengan efisien. Pada dasarnya, hash table memungkinkan operasi penambahan, penghapusan, dan pencarian data dalam waktu rata-rata konstan, sehingga sangat berguna untuk mengelola koleksi data yang besar.
+### Hash Table: 
 
-Fungsi Hash: Fungsi hash adalah kunci dalam implementasi hash table. Fungsi ini mengonversi kunci (key) dari sebuah elemen menjadi indeks dalam array. Tujuannya adalah agar dua kunci yang berbeda menghasilkan indeks yang berbeda pula.
+Hash table (tabel hash) adalah struktur data yang digunakan untuk menyimpan dan mengakses data dengan cepat berdasarkan kunci (key). Ini menggunakan teknik hashing, di mana fungsi hash digunakan untuk mengonversi kunci menjadi indeks di dalam array. Hal ini memungkinkan akses yang efisien ke elemen-elemen data.<br>
 
-Tabel Hash: Hash table adalah array dengan ukuran tetap yang digunakan untuk menyimpan elemen-elemen data. Setiap elemen disimpan di lokasi yang dihitung oleh fungsi hash dari kuncinya.
+### Fungsi Hash
 
-Penanganan Tabrakan (Collision Resolution): Tabrakan terjadi ketika dua kunci yang berbeda menghasilkan indeks yang sama. Ada beberapa metode untuk menangani tabrakan, seperti:
--Separate Chaining: Menggunakan linked lists untuk menyimpan beberapa elemen dengan indeks yang sama.<br>
+Fungsi hash adalah fungsi matematika yang mengonversi kunci (key) menjadi indeks array. Fungsi ini harus:
+- Konsisten menghasilkan indeks yang sama untuk kunci yang sama.
+- Mendistribusikan kunci secara merata di seluruh array untuk menghindari tabrakan (collisions).<br>
 
--Probing: Mencoba sel alternatif jika sel yang diinginkan sudah terisi.
+Contoh implementasi dari fungsi hash:
+```cpp
+size_t myhash(const HashedObj &x) const {
+    size_t hashVal = hash<string>{}(x); // Contoh penggunaan hash untuk string
+    return hashVal % array.size(); // Mengembalikan indeks berdasarkan modulus ukuran array
+}
+```
+
+### Teknik Tabrakan (Collisions)<br>
+
+Tabrakan terjadi ketika dua kunci (key) yang berbeda dihasilkan oleh fungsi hash yang sama. Ada beberapa teknik untuk mengatasi tabrakan:<br>
+
+1. **Probing Linier**:
+   - Mengunjungi sel berikutnya dalam array jika slot yang dihasilkan sudah terisi.
+   - Contoh implementasi: `currentPos = (currentPos + 1) % array.size();`
+
+2. **Probing Kuadrat**:
+   - Mengunjungi sel dengan interval yang meningkat secara kuadrat jika slot yang dihasilkan sudah terisi.
+   - Contoh implementasi: `offset = 1; currentPos = (currentPos + offset) % array.size(); offset += 2;`
+
+3. **Penggabungan Berpisah (Separate Chaining)**:
+   - Menyimpan elemen-elemen dengan kunci yang sama di dalam linked list atau struktur data lain di dalam setiap slot array.
+   - Contoh implementasi: `vector<list<HashedObj>> array;`
+
+### Mengatasi Tabrakan<br>
+
+Untuk mengatasi tabrakan, beberapa langkah yang dapat diambil:<br>
+
+- **Probing**: Terus mencari slot kosong jika slot yang diinginkan sudah terisi.
+- **Penggabungan Berpisah**: Menambahkan elemen ke dalam linked list atau struktur data lain di slot yang sama.
+- **Rehashing**: Membuat array yang lebih besar dan memindahkan elemen-elemen lama ke array yang baru untuk mengurangi peluang tabrakan.
+
+### Contoh Implementasi Rehashing<br>
+
+Rehashing diperlukan jika faktor muatan (load factor) tabel hash melebihi batas tertentu (biasanya 0.5). Berikut adalah contoh implementasi rehashing untuk probing kuadrat dan penggabungan berpisah:
+
+```cpp
+// Rehashing untuk probing kuadrat
+void rehash() {
+    vector<HashEntry> oldArray = array;
+    array.resize(nextPrime(2 * oldArray.size()));
+    for (auto &entry : array)
+        entry.info = EMPTY;
+    currentSize = 0;
+    for (auto &entry : oldArray)
+        if (entry.info == ACTIVE)
+            insert(std::move(entry.element));
+}
+
+// Rehashing untuk penggabungan berpisah
+void rehash() {
+    vector<list<HashedObj>> oldLists = theLists;
+    theLists.resize(nextPrime(2 * theLists.size()));
+    for (auto &thisList : theLists)
+        thisList.clear();
+    currentSize = 0;
+    for (auto &thisList : oldLists)
+        for (auto &x : thisList)
+            insert(std::move(x));
+}
+```
+Dengan demikian, hash table adalah struktur data yang efisien untuk pencarian, penyisipan, dan penghapusan data berdasarkan kunci. Fungsi hash, teknik tabrakan, dan rehashing adalah komponen-komponen penting dari implementasi hash table untuk memastikan performa yang optimal.
 
 ## Guided 
 
