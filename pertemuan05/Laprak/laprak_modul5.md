@@ -73,7 +73,6 @@ void rehash() {
             insert(std::move(x));
 }
 ```
-Dengan demikian, hash table adalah struktur data yang efisien untuk pencarian, penyisipan, dan penghapusan data berdasarkan kunci. Fungsi hash, teknik tabrakan, dan rehashing adalah komponen-komponen penting dari implementasi hash table untuk memastikan performa yang optimal.
 
 ## Guided 
 
