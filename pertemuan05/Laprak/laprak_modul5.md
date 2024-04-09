@@ -577,20 +577,20 @@ int main()
 #### Output:
 
 ### Tambah data (Joshua,irfan,Dhimas,Nizal):
-![Output unguided 1](pertemuan05\Laprak\outputtambahdata(1).png)
-![Output unguided 1](pertemuan05\Laprak\outputtambahdata(2).png)
+![Output unguided 1](outputtambahdata(1).png)<br>
+![Output unguided 1](outputtambahdata(2).png)
 
 ### Cari Berdasarkan Nim:
-![Output unguided 1](pertemuan05\Laprak\outputcariNIM.png)
+![Output unguided 1](outputcariNIM.png)
 
 ### Cari Berdasarkan Nilai:
-![Output unguided 1](pertemuan05\Laprak\outputcarinilai.png)
+![Output unguided 1](outputcarinilai.png)
 
 ### Tampilkan Data Sebelum Ada Data Yang Dihapus:
-![Output unguided 1](pertemuan05\Laprak\outputtampildatasebelumdihapus.png)
+![Output unguided 1](outputtampildatasebelumdihapus.png)
 
 ### Tampilkan Data Sesudah Ada Data Yang Dihapus:
-![Output unguided 1](pertemuan05\Laprak\outputtampildatasetelahdihapus.png)
+![Output unguided 1](outputtampildatasetelahdihapus.png)
 
 Program c++ diatas adalah program yang mengimplementasikan struktur data HashMap untuk data mahasiswa yang dimana struktur data HashMap digunakan untuk menyimpan data mahasiswa berdasarkan Nim dengan konsep hashing.Program diatas juga memilikki beberapa menu yang dapat user gunakan seperti:<br>
 - Tambah Data: Untuk menambahkan data mahasiswa baru. Jika NIM sudah ada dalam tabel, data mahasiswa akan diperbarui.
