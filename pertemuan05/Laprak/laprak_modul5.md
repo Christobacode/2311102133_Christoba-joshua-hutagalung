@@ -589,6 +589,9 @@ int main()
 ### Tampilkan Data Sebelum Ada Data Yang Dihapus:
 ![Output unguided 1](outputtampildatasebelumdihapus.png)
 
+### Menghapus Data Irfan:
+![Output unguided 1](outputhapusdata.png)
+
 ### Tampilkan Data Sesudah Ada Data Yang Dihapus:
 ![Output unguided 1](outputtampildatasetelahdihapus.png)
 
@@ -597,7 +600,7 @@ Program c++ diatas adalah program yang mengimplementasikan struktur data HashMap
 - Hapus Data: Untuk menghapus data mahasiswa berdasarkan NIM.
 - Cari Data Berdasarkan NIM: Untuk mencari data mahasiswa berdasarkan NIM.
 - Cari Data Berdasarkan Rentang Nilai: Untuk mencari dan menampilkan data mahasiswa berdasarkan rentang nilai tertentu.
-- Tampilkan Data: Untuk menampilkan seluruh data mahasiswa yang tersimpan dalam tabel hash.
+- Tampilkan Data: Untuk menampilkan seluruh data mahasiswa yang tersimpan dalam tabel hash.<br>
 Setiap data mahasiswa yang dimasukkan direpresentasikan oleh HashNode, yang memiliki atribut nama, NIM, dan nilai. Data mahasiswa disimpan dalam HashMap menggunakan teknik hashing, di mana fungsi hashFunc_133(string key_133) digunakan untuk menghitung nilai hash dari NIM mahasiswa. Proses hashing dilakukan dengan menjumlahkan nilai ASCII dari karakter-karakter dalam NIM dan kemudian mengambil hasil modulo terhadap ukuran tabel (TableSize_133) untuk menentukan posisi penyimpanan data dalam tabel hash.Dengan menggunakan struktur data HashMap, program ini dapat menyimpan dan mengakses data mahasiswa dengan efisien, terutama saat mencari data berdasarkan NIM atau rentang nilai. Pengguna dapat dengan mudah melakukan operasi-operasi dasar pada data mahasiswa menggunakan menu-menu yang disediakan.
 ## Kesimpulan
 hash table merupakan struktur data yang efisien untuk menyimpan dan mengakses data dengan cepat berdasarkan kunci (key) menggunakan teknik hashing. Fungsi hash digunakan untuk mengonversi kunci menjadi indeks array, dengan tujuan menghindari tabrakan (collisions) dan mendistribusikan data secara merata di seluruh array. Teknik penanganan tabrakan seperti chaining (penggabungan berpisah) memungkinkan penanganan kunci-kunci yang berbeda tetapi di-hash ke indeks yang sama melalui linked list atau vektor.
