@@ -328,7 +328,7 @@ int main()
 ```
 Program di atas adalah implementasi sebuah single linked list non-circular dalam bahasa C++. Ini adalah struktur data yang terdiri dari serangkaian node yang saling terhubung, di mana setiap node memiliki dua bagian utama yaitudata yang menyimpan nilai dan pointer yang menunjuk ke node berikutnya dalam linked list.Program ini memungkinkan operasi dasar pada linked list,seperti menambah dan menghapus node di bagian depan, belakang, dan posisi tengah. Selain itu, program juga dapat menghitung jumlah node dalam linked list, mengubah nilai data pada node tertentu, serta membersihkan semua node dari linked list. Melalui fungsi-fungsi seperti `insertDepan`, `insertBelakang`, `insertTengah`, `hapusDepan`, `hapusBelakang`, dan lainnya, program dapat memanipulasi linked list sesuai dengan kebutuhan pengguna. Semua operasi dilakukan dengan memanfaatkan konsep traversal melalui linked list menggunakan pointer. 
 
-### 2. Latihan Circula
+### 2. Latihan Circular
 
 ```C++
 #include <iostream>
