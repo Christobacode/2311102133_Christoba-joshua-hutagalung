@@ -2,7 +2,7 @@
 <p align="center">Christoba Joshua Hutagalung - 2311102133</p>
 
 ## Dasar Teori
-### Hash Table: 
+### Hash Table
 
 Hash table (tabel hash) adalah struktur data yang digunakan untuk menyimpan dan mengakses data dengan cepat berdasarkan kunci (key). Ini menggunakan teknik hashing, di mana fungsi hash digunakan untuk mengonversi kunci menjadi indeks di dalam array. Hal ini memungkinkan akses yang efisien ke elemen-elemen data.<br>
 
