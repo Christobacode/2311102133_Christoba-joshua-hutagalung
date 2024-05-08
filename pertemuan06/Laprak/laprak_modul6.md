@@ -236,8 +236,43 @@ Kalimat = telkom
 
 ![Output soal unguided 1](soal_unguided1.png)
 ```C++
+#include <iostream>
+
+using namespace std;
+
+// Fungsi untuk menentukan apakah kata adalah palindrom atau tidak
+bool checkPalindrom_133(string kata_133) {
+    int length_133 = kata_133.length(); // Menghitung panjang kata
+    // Looping untuk membandingkan setiap karakter dari awal dan akhir
+    for(int i = 0; i < length_133 / 2; i++) {
+        // Membandingkan karakter pada posisi i dengan karakter pada posisi (length_133 - i - 1)
+        if(tolower(kata_133[i]) != tolower(kata_133[length_133 - i - 1])) {
+            return false; // Jika tidak sama, kata bukan palindrom
+        }
+    }
+    return true; // Jika semua karakter cocok, kata adalah palindrom
+}
+
+int main() {
+    string inputKata_133;
+    cout << "==== CEK KATA PALINDROM ====" << endl;
+    cout << "Masukkan Kata: ";
+    cin >> inputKata_133; // Menerima input kata dari pengguna
+
+    // Memanggil fungsi untuk memeriksa apakah kata adalah palindrom atau tidak
+    if(checkPalindrom_133(inputKata_133)) {
+        cout << "Kata tersebut adalah Palindrom" << endl;
+    } else {
+        cout << "Kata tersebut bukan Palindrom" << endl;
+    }
+    return 0;
+}
 ```
 #### Output:
+![output unguided 1 gambar 1](outputunguided1(1).png)
+![output unguided 1 gambar 2](outputunguided1(2).png)
+
+Program diatas adalah program yang dapat menentukan kalimat yang user inputkan palindrom atau bukan menggunakan stack.fungsi 'checkPalindrom_133' fungsi ini berfungsi untuk memeriksa apakah kata yang diberikan palindrom atau tidak.fungsi ini melakukan perbandingan karakter pertama dengan karakter terakhir,kedua dengan kedua terakhir dan seterusnya,jika terdapat perbedaan antara karakter yang sesuai,maka kata tersebut bukanlah palindrom.fungsi 'main' fungsi utama dalam program ini meminta pengguna untuk menginputkan kata menggunakan cin dan disimpan di variabel 'inputKata_133',selanjutnya program akan memanggil fungsi 'checkPalindrom_133' untuk memeriksa apakah kata yang diinputkan sudah palindrom atau tidak kemudian hasil program dicetak dan ditampilkan ke user atau pengguna.
 
 ### 2. Buatlah program untuk melakukan pembalikan terhadap kalimat menggunakan stack dengan minimal 3 kata.Jelaskan output program dan source codenya beserta operasi/fungsi yang dibuat?
 
@@ -248,12 +283,66 @@ Kalimat = Telkom Purwokerto
 
 ![Output soal unguided 2](soal_unguided2.png)
 ```C++
+#include <iostream>
+#include <string>
+#include <stack>
 
+using namespace std;
+
+// Fungsi untuk membalikkan kalimat menggunakan stack
+void balikKalimat_133(string kalimat_133) {
+    stack<char> tumpukan_133;
+
+    // Memasukkan setiap karakter dari kalimat ke dalam stack
+    for (char c_133 : kalimat_133) {
+        tumpukan_133.push(c_133);
+    }
+
+    string kalimatDibalik_133;
+    // Mengambil karakter dari stack dan menyimpannya dalam kalimat yang dibalik
+    while (!tumpukan_133.empty()) {
+        kalimatDibalik_133 += tumpukan_133.top();
+        tumpukan_133.pop();
+    }
+
+    // Menampilkan kalimat yang sudah dibalik
+    cout << "Kalimat terbalik: " << kalimatDibalik_133 << endl;
+}
+
+int main() {
+    string kalimat_133;
+
+    // Meminta pengguna memasukkan sebuah kalimat
+    cout << "Masukkan kalimat: ";
+    getline(cin, kalimat_133);
+
+    int jumlahKata_133 = 1;
+    // Menghitung jumlah kata dalam kalimat
+    for (char c_133 : kalimat_133) {
+        if (c_133 == ' ') {
+            jumlahKata_133++;
+        }
+    }
+
+    // Memeriksa apakah jumlah kata kurang dari 3
+    if (jumlahKata_133 < 3) {
+        cout << "Kalimat harus terdiri minimal 3 kata" << endl;
+    } else {
+        // Memanggil fungsi untuk membalikkan kalimat dan menampilkan hasil kalimat yang sudah dibalik
+        balikKalimat_133(kalimat_133);
+    }
+
+    return 0;
+}
 ```
 #### Output:
+![output unguided 2 gambar 1](outputunguided2(1).png)
+![output unguided 2 gambar 2](outputunguided2(2).png)
+
+Program c++ diatas merupakan implementasi dari stack yang dimana program ini dapat membuat kalimat yang di input lalu dibuat menjadi kalimat terbalik.fungsi 'balikKalimat_133' fungsi ini digunakan untuk membalikkan kalimat yang diterima sebagai parameter menggunakan stack.awalnya program ini membuat sebuah stack dengan tipe data char untuk menyimpan setiap karakter dalam kalimat,lalu setiap karakter dari kalimat dimasukkan ke dalam stack,setelah itu program mengambik karakter dari stack tadi satu per satu dan menyusunnya kembali menjadi kalimat yang sudah dibalik.fungsi 'main' adalah fungsi utama dari program.pertama tama program meminta user untuk menginputkan kalimat menggunakan cout kemudian program membaca inputan kalimat dari pengguna menggunakan 'getline' dan disimpan di variabel kalimat_133.berikutnya program menghitung jumlah kata dalam kalimat dengan menghitung jumlah spasi.jika kata nya kurang dari 3 maka program akan mencetak output kesalahan,tetapi jika jumlah katanya mencukupi atau memenuhi syarat maka program akan mengambil fungsi 'balikKalimat_133' untuk membalikkan kalimat lalu menampilkan hasilnya.
 
 ## Kesimpulan
-
+Dalam praktikum kali ini praktikan diharapkan dapat memahami materi stack dalam c++,Stack adalah struktur data yang mengikuti prinsip Last In First Out (LIFO), di mana elemen terakhir yang dimasukkan akan menjadi elemen pertama yang dihapus. Dalam laporan ini, kita mempelajari operasi-operasi dasar stack seperti push, pop, clear, isEmpty, isFull, dan peek, serta berbagai penerapan stack dalam pemrograman seperti pembalikan string, evaluasi ekspresi aritmetika, dan pemanggilan fungsi rekursif.dari 2 unguided yang diberikan praktikan dapat melihat bagaimana stack digunakan untuk menangani tumpukan data dengan cara yang efisien dan efektif, membantu dalam pengembangan program yang memerlukan urutan operasi atau data yang penting.
 
 ## Referensi
 [1] A. S. R. St. MTi, STRUKTUR DATA DAN ALGORITMA DENGAN C++. CV. AA. RIZKY, 2019. [Online]. Available: http://books.google.ie/books?id=GP_ADwAAQBAJ&pg=PR4&dq=978-623-7411-56-7&hl=&cd=1&source=gbs_api<br>
