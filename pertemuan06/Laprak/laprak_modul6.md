@@ -2,9 +2,10 @@
 <p align="center">Christoba Joshua Hutagalung - 2311102133</p>
 
 ## Dasar Teori
-Stack (tumpukan) adalah struktur data yang memungkinkan penyisipan dan pengambilan data dilakukan dari satu ujung yang disebut puncak. Sesuai dengan namanya, struktur data ini digambarkan seperti tumpukan piring atau tumpukan buku. Untuk menambahkan piring ke dalam tumpukan, kita meletakkannya di bagian puncak. Begitu juga, ketika ingin mengambil piring, piring diambil dari data yang berada di puncak tumpukan. Proses ini menggambarkan prinsip "Last In, First Out" (LIFO). Data atau item yang disimpan di dalam stack akan membentuk tumpukan, dengan item paling akhir yang ditambahkan disebut sebagai "top of stack".
+Stack (tumpukan) adalah struktur data yang memungkinkan penyisipan dan pengambilan data dilakukan dari satu ujung yang disebut puncak. Sesuai dengan namanya, struktur data ini digambarkan seperti tumpukan piring atau tumpukan buku. Untuk menambahkan piring ke dalam tumpukan, kita meletakkannya di bagian puncak. Begitu juga, ketika ingin mengambil piring, piring diambil dari data yang berada di puncak tumpukan. Proses ini menggambarkan prinsip "Last In, First Out" (LIFO). Data atau item yang disimpan di dalam stack akan membentuk tumpukan, dengan item paling akhir yang ditambahkan disebut sebagai "top of stack".Item ditempatkan membentuk tumpukan. 
 
 ![Screenshot 1 dasar teori](ssdasarteori1.png)
+Struktur Data Tumpukan
 
 Tumpukan memiliki sifat Last In First Out (LIFO), yang berarti data yang terakhir dimasukkan atau disisipkan akan menjadi data yang pertama kali keluar. Pada contoh di atas dengan tumpukan A, B, dan C, terlihat bahwa C adalah data yang terakhir ditambahkan ke tumpukan. Jika operasi pengambilan data dilakukan, maka C akan menjadi data yang pertama kali diambil atau keluar dari tumpukan.
 
