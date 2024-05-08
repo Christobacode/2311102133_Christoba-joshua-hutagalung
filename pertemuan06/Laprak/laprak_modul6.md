@@ -5,7 +5,7 @@
 Stack (tumpukan) adalah struktur data yang memungkinkan penyisipan dan pengambilan data dilakukan dari satu ujung yang disebut puncak. Sesuai dengan namanya, struktur data ini digambarkan seperti tumpukan piring atau tumpukan buku. Untuk menambahkan piring ke dalam tumpukan, kita meletakkannya di bagian puncak. Begitu juga, ketika ingin mengambil piring, piring diambil dari data yang berada di puncak tumpukan. Proses ini menggambarkan prinsip "Last In, First Out" (LIFO). Data atau item yang disimpan di dalam stack akan membentuk tumpukan, dengan item paling akhir yang ditambahkan disebut sebagai "top of stack".Item ditempatkan membentuk tumpukan. 
 
 ![Screenshot 1 dasar teori](ssdasarteori1.png)<br>
-Struktur Data Tumpukan
+### gambar diatas adalah Struktur Data Tumpukan
 
 Tumpukan memiliki sifat Last In First Out (LIFO), yang berarti data yang terakhir dimasukkan atau disisipkan akan menjadi data yang pertama kali keluar. Pada contoh di atas dengan tumpukan A, B, dan C, terlihat bahwa C adalah data yang terakhir ditambahkan ke tumpukan. Jika operasi pengambilan data dilakukan, maka C akan menjadi data yang pertama kali diambil atau keluar dari tumpukan.
 
@@ -16,7 +16,7 @@ Penerapan stack dalam pemrograman sangat beragam, mulai dari penyelesaian masala
 - Stack overflow terjadi saat tumpukan sudah penuh dengan buku namun kita masih mencoba menambahkan buku baru ke dalamnya, seperti mencoba menambahkan buku baru ke tumpukan yang sudah terlalu tinggi untuk menampungnya.
 - Stack underflow terjadi saat kita mencoba mengambil buku dari tumpukan yang kosong, seperti mencoba mengambil buku dari tumpukan yang tidak memiliki buku sama sekali.
 
-#### Operasi-operasi/fungsi Stack :
+### Operasi-operasi/fungsi Stack :
 
 Operasi pada stack melibatkan serangkaian fungsi yang memberikan kita kemampuan untuk berinteraksi dengan struktur data ini. Mari kita jabarkan beberapa operasi dasar yang dapat kita lakukan pada stack:
 
@@ -27,7 +27,7 @@ Operasi pada stack melibatkan serangkaian fungsi yang memberikan kita kemampuan 
  - IsFull : fungsi yang digunakan untuk mengecek apakah stack sudah penuh
  - Size : Digunakan untuk mengetahui berapa banyak buku yang telah Anda susun di tumpukan tersebut.
 
-Operasi dasar pada tumpukan adalah PUSH dan POP:
+### Operasi dasar pada tumpukan adalah PUSH dan POP:
 
 - PUSH : Operasi untuk memasukkan data ke dalam tumpukan. Biasanya dinyatakan dengan `push(T, d)`, di mana T menyatakan tumpukan dan d menyatakan item data yang akan dimasukkan ke dalam tumpukan T.
 
