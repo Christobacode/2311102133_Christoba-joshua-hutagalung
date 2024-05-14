@@ -4,7 +4,7 @@
 ## Dasar Teori
 Queue disebut juga antrian dimana data masuk di satu sisi dan keluar di sisi yang lain. Karena itu, queue bersifat FIFO (First In First Out). Antrian (Queue) merupakan suatu kumpulan data yang penambahan elemennya (masuk antrian) hanya bisa dilakukan pada suatu ujung (disebut dengan sisi belakang/rear) atau disebut juga enqueue yaitu apabila seseorang masuk ke dalam sebuah antrian. Jika seseorang keluar dari antrian/penghapusan (pengambilan elemen) dilakukan lewat ujung yang lain (disebut dengan sisi depan/front) atau disebut juga dequeue yaitu apabila seseorang keluar dari antrian.Antrian menggunakan prinsip “masuk pertama keluar pertama” atau disebut juga dengan prinsip FIFO (first in first out). Dengan kata lain, urutan keluar akan sama dengan urutan masuknya. Contoh: antrian mobil saat membeli karcis di pintu jalan tol, antrian di bioskop, dan sebagainya.
 
-# Operasi / Prosedur Standar pada Queue / Antrian
+## Operasi / Prosedur Standar pada Queue / Antrian
 
 QUEUE merupakan struktur data dinamis, ketika program dijalankan, jumlah elemennya dapat berubah secara dinamis sesuai keperluan. Berikut ini operasi-operasi standar pada queue:
 
@@ -22,7 +22,7 @@ Operasi-operasi yang berhubungan dengan jumlah elemen suatu queue adalah:
 
 3. **Full**: Prosedur untuk mengetahui apakah Queue penuh atau tidak. Prosedur ini hanya berlaku untuk queue yang jumlahnya terbatas.
 
-# Pendeklarasian queue
+## Pendeklarasian queue
 ```c
 //deklarasi queue dengan struct dan array
 struct QUEUE
