@@ -447,13 +447,13 @@ int main(){
 }
 ```
 #### Output:
-![output unguided 2 gambar 1](ssunguided2(1).png)
-![output unguided 2 gambar 2](ssunguided2(2).png)
-![output unguided 2 gambar 3](ssunguided2(3).png)
-![output unguided 2 gambar 4](ssunguided2(4).png)
-![output unguided 2 gambar 5](ssunguided2(5).png)
-![output unguided 2 gambar 6](ssunguided2(6).png)
-![output unguided 2 gambar 7](ssunguided2(7).png)
+![output unguided 2 gambar 1](ssunguided2(1).png)<br>
+![output unguided 2 gambar 2](ssunguided2(2).png)<br>
+![output unguided 2 gambar 3](ssunguided2(3).png)<br>
+![output unguided 2 gambar 4](ssunguided2(4).png)<br>
+![output unguided 2 gambar 5](ssunguided2(5).png)<br>
+![output unguided 2 gambar 6](ssunguided2(6).png)<br>
+![output unguided 2 gambar 7](ssunguided2(7).png)<br>
 ![output unguided 2 gambar 8](ssunguided2(8).png)
 
 Program ini adalah implementasi dari sistem antrian atau queue menggunakan struktur data linked list dalam bahasa C++.queue dalam program ini digunakan untuk menyimpan data mahasiswa dengan nama dan NIM dan program ini menyediakan berbagai fungsi untuk mengelola antrian seperti menambah data, mengurangi data, menghitung jumlah data, menghapus seluruh data, dan menampilkan seluruh data dalam antrian. Selain itu,dalam program ini juga dilengkapi dengan menu yang memungkinkan pengguna atau user untuk memilih operasi yang ingin dilakukan.penjelasan singkat mengenai fungsi fungsi yang ada di program ini:<br>
