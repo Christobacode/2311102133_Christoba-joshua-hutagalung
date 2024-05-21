@@ -289,6 +289,6 @@ Program c++ diatas adalah program pencarian yang bertujuan untuk menghitung bera
 Dalam praktikum searching ini membahas dua algoritma pencarian, yaitu Sequential Search dan Binary Search, dalam bahasa C++. Sequential Search cocok untuk data kecil karena melakukan pencarian satu per satu, sedangkan Binary Search efisien untuk data besar yang sudah terurut.materi searching dalam C++ memberikan pemahaman tentang cara mencari elemen tertentu dalam kumpulan data.pemahaman tentang kedua algoritma pencarian ini penting dalam pengembangan program aplikasi, karena membantu dalam memilih pendekatan pencarian yang paling sesuai tergantung pada sifat data yang dihadapi.
 
 ## Referensi
-[1] Meidyan Permata Putri, et al., Algoritma dan Struktur Data. Bandung: Widina Bhakti Persada Bandung, 2022.
-[2] Dr. Joseph Teguh Santoso, S. M. (2021). STRUKTUR DATA dan ALGORITMA ( bagian 2)
+[1] Meidyan Permata Putri, et al., Algoritma dan Struktur Data. Bandung: Widina Bhakti Persada Bandung, 2022.<br>
+[2] Dr. Joseph Teguh Santoso, S. M. (2021). STRUKTUR DATA dan ALGORITMA ( bagian 2)<br>
 [3] PURBASARI, Wika, et al. ALGORITMA PEMROGRAMAN. 2024.    
