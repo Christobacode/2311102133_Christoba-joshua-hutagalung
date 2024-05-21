@@ -5,16 +5,16 @@
 Searching (pencarian) pada struktur data mengacu pada proses algoritmik untuk memeriksa, menemukan, mengambil posisi elemen tertentu (target) dari kumpulan elemen di dalam struktur data. Kumpulan elemen dapat berupa array, list, linked list, tree, dan lain sebagainya. Berdasarkan jenis operasinya, dua algoritma pencarian yaitu Sequential Search dan Binary Search pada data array.
 
 ### 1.Sequential search<br>
-Sequential Search (pencarian berurutan) dikenal juga sebagai pencarian linier. Sequential Search merupakan algoritma pencarian paling dasar dan paling sederhana yang bekerja menggunakan pendekatan brute force, mencoba segala kemungkinan yang ada hingga target yang diinginkan ditemukan. Sebagai contoh, mencari nilai 36 dari data array {12, 7, 30, 28, 2, 19, 36, 21, 16, 9}. Sequential Search dimulai dengan membandingkan/mencocokkan 36 dengan elemen pertama/index[0] yaitu 12, karena 12 tidak sesuai dengan kriteria pencarian (12 != 36) maka dilanjutkan dengan membandingkan 36 dengan elemen berikutnya hingga ditemukan elemen yang cocok, yaitu pada index[6] dimana 36 == 36.
+Sequential Search (pencarian berurutan) dikenal juga sebagai pencarian linier. Sequential Search merupakan algoritma pencarian paling dasar dan paling sederhana yang bekerja menggunakan pendekatan brute force, mencoba segala kemungkinan yang ada hingga target yang diinginkan ditemukan. Sebagai contoh, mencari nilai 36 dari data array {12, 7, 30, 28, 2, 19, 36, 21, 16, 9}. Sequential Search dimulai dengan membandingkan/mencocokkan 36 dengan elemen pertama/index[0] yaitu 12, karena 12 tidak sesuai dengan kriteria pencarian (12 != 36) maka dilanjutkan dengan membandingkan 36 dengan elemen berikutnya hingga ditemukan elemen yang cocok, yaitu pada index[6] dimana 36 == 36.<br>
 ![Ilustrasi searching 1](ssilustrasisearching1.png)<br>
 Cara kerja sequential search Algoritma dimulai dengan membandingkan elemen pertama dengan elemen yang dicari. Jika cocok, pencarian selesai.Jika tidak, ia akan terus memeriksa elemen berikutnya sampai menemukan elemen yang dicari atau mencapai akhir kumpulan data.lalu sequential search memilikki kekurangan seperti kurang efisien untuk kumpulan data besar karena memerlukan pemeriksaan setiap elemen dalam kumpulan data, bahkan jika elemen yang dicari ada di awal kumpulan data.Berikut adalah konsep dasar dan langkah-langkah implementasi Sequential Search:<br>
 
-- A.Konsep Dasar:
-- -Pencarian Berurutan: Algoritma Sequential Search melakukan pencarian satu per satu dari awal hingga akhir kumpulan data.<br>
-- -Metode Brute Force: Ini adalah pendekatan brute force di mana algoritma mencoba semua kemungkinan sampai elemen yang dicari ditemukan.<br>
-- -Kompleksitas Waktu: Kompleksitas waktu dari Sequential Search adalah O(n), di mana n adalah jumlah elemen dalam kumpulan data.<br>
+#### A.Konsep Dasar:
+- Pencarian Berurutan: Algoritma Sequential Search melakukan pencarian satu per satu dari awal hingga akhir kumpulan data.<br>
+- Metode Brute Force: Ini adalah pendekatan brute force di mana algoritma mencoba semua kemungkinan sampai elemen yang dicari ditemukan.<br>
+- Kompleksitas Waktu: Kompleksitas waktu dari Sequential Search adalah O(n), di mana n adalah jumlah elemen dalam kumpulan data.<br>
 
-- B.Langkah-langkah Implementasi:<br>
+#### B.Langkah-langkah Implementasi:<br>
 - 1.Inisialisasi indeks pencarian:
 - 2.Memulai perulangan untuk memeriksa setiap elemen dalam kumpulan data.
 - 3.Membandingkan elemen yang sedang diperiksa dengan elemen yang dicari.
