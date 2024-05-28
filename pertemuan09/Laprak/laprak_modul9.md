@@ -70,9 +70,7 @@ AVL Tree adalah jenis BST yang mempertahankan keseimbangan tinggi, dengan memast
 Heap Tree adalah jenis Complete Binary Tree yang memenuhi aturan tertentu terkait urutan nilai di setiap nodenya, seperti Minimum Heap dan Maximum Heap.
 
 #### 10. B-Tree
-B-Tree adalah jenis tree yang memungkinkan setiap node berisi lebih dari satu elemen. B-Tree memiliki operasi-operasi khusus seperti penambahan, penghapusan, dan tampilan data.
-
-Dengan memahami dasar teori tentang tree dalam struktur data, kita dapat menggunakan struktur data ini untuk menyimpan dan mengelola informasi secara efisien dalam berbagai aplikasi dan algoritma.<br>
+B-Tree adalah jenis tree yang memungkinkan setiap node berisi lebih dari satu elemen. B-Tree memiliki operasi-operasi khusus seperti penambahan, penghapusan, dan tampilan data.<br>
 ![Output contoh gambar Tree](dasarteori2.png)<br>
 ![Output contoh gambar Tree](dasarteori3.png)<br>
 Gambar diatas merupakan contoh dari Tree.
@@ -1187,7 +1185,8 @@ Berikut ini penjelasan fungsi-fungsi utama dalam program ini adalah sebagai beri
 - `find(Pohon *node)`: Fungsi ini mencari dan menampilkan informasi tentang node yang ditentukan, termasuk data node, parent, sibling, dan anak-anaknya.
 
 ## Kesimpulan
-
+Pada praktikum tentang graph dan tree ini, kami mempelajari dua konsep utama dalam struktur data, yaitu graph dan tree. Graph digunakan untuk merepresentasikan hubungan antara objek-objek diskrit, seperti dalam pemodelan jaringan. Kami memahami jenis-jenis graph seperti tak berarah, berarah, dan berbobot serta aplikasinya dalam berbagai domain. Selain itu, praktikan atau mahasiswa juga mempelajari terminologi dan struktur data yang digunakan untuk menyimpan graph di dalam sistem komputer. Selanjutnya, kami memahami tree sebagai struktur data hirarkis yang penting dalam pemrograman, dengan fokus pada pembentukan, karakteristik, dan operasi-operasi yang dapat dilakukan dalam binary tree. Kami juga belajar tentang implementasi binary tree dan jenis-jenis khusus seperti binary search tree (BST), AVL tree, heap tree, dan B-tree. dengan memahami materi graph dan tree kita dapat mengoptimalkan penggunaan graph dan tree dalam memecahkan berbagai masalah algoritmis dan pengembangan aplikasi.
 
 ## Referensi
- 
+[1] A. S. R. St. MTi, STRUKTUR DATA DAN ALGORITMA DENGAN C++. CV. AA. RIZKY, 2019. [Online]. Available: http://books.google.ie/books?id=GP_ADwAAQBAJ&pg=PR4&dq=978-623-7411-56-7&hl=&cd=1&source=gbs_api<br>
+[2] Triase, Triase. "Struktur Data: Diktat Edisi Revisi." (2020). [Online]. Available: http://repository.uinsu.ac.id/9717/2/Diktat%20Struktur%20Data.pdf
