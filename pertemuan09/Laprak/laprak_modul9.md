@@ -21,7 +21,7 @@ Ada beberapa cara untuk menyimpan graf di dalam sistem komputer. Struktur data b
 
 - 3.Graf Berbobot (Weighted Graph):
     - Jika setiap busur mempunyai nilai yang menyatakan hubungan antara dua buah simpul, maka busur tersebut dinyatakan memiliki bobot.
-    - Bobot sebuah busur dapat menyatakan panjang sebuah jalan dari dua buah titik, jumlah rata-rata kendaraan per hari yang melalui sebuah jalan, dan sebagainya.
+    - Bobot sebuah busur dapat menyatakan panjang sebuah jalan dari dua buah titik, jumlah rata-rata kendaraan per hari yang melalui sebuah jalan, dan sebagainya.<br>
     ![Output gambar graph](dasarteori1.png)
 
 ### Tree
@@ -1162,15 +1162,15 @@ int main()
 }
 ```
 #### Output:
-![Output Unguided 2](ssunguided2(1).png)
-![Output Unguided 2](ssunguided2(2).png)
-![Output Unguided 2](ssunguided2(3).png)
-![Output Unguided 2](ssunguided2(4).png)
-![Output Unguided 2](ssunguided2(5).png)
-![Output Unguided 2](ssunguided2(6).png)
-![Output Unguided 2](ssunguided2(7).png)
-![Output Unguided 2](ssunguided2(8).png)
-![Output Unguided 2](ssunguided2(9).png)
+![Output Unguided 2](ssunguided2(1).png)<br>
+![Output Unguided 2](ssunguided2(2).png)<br>
+![Output Unguided 2](ssunguided2(3).png)<br>
+![Output Unguided 2](ssunguided2(4).png)<br>
+![Output Unguided 2](ssunguided2(5).png)<br>
+![Output Unguided 2](ssunguided2(6).png)<br>
+![Output Unguided 2](ssunguided2(7).png)<br>
+![Output Unguided 2](ssunguided2(8).png)<br>
+![Output Unguided 2](ssunguided2(9).png)<br>
 ![Output Unguided 2](ssunguided2(10).png)
 
 Program di c++ diatas adalah implementasi dari struktur data pohon biner menggunakan bahasa pemrograman C++. Pohon biner adalah struktur data hierarkis yang terdiri dari simpul-simpul atau node, di mana setiap node memiliki maksimal dua anak (anak kiri dan anak kanan). Program ini menggunakan sebuah `struct` yang disebut `Pohon` untuk merepresentasikan setiap node dalam pohon. Setiap node memiliki tiga pointer: `left` untuk menunjukkan anak kiri, `right` untuk menunjukkan anak kanan, dan `parent` untuk menunjukkan induknya.<br>
